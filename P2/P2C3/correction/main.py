@@ -25,4 +25,4 @@ hebdomadaire = salaire_hebdomadaire(mensuel)
 horaire = salaire_horaire(hebdomadaire, heures_travaillees)
 
 # Affichage du résultat
-print("Votre salaire horaire est de", horaire, "euros.")
+print("Votre salaire horaire est de", round(horaire), "euros.")
